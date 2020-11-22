@@ -1,0 +1,70 @@
+include ./nav.pug
+
+style 
+    include ./code.css
+    include ./prism.css
+ 
+script
+    include ./prism.js
+    
+       
+    
+
+div.main
+    
+    div.option
+        div.about
+            h1.helloworld  About Python
+        div.insideoption
+            button.button#py( type="button" class="btn btn-primary ") Python
+            button.button#c( type="button" class="btn btn-secondary ") C prog.
+            button.button#java( type="button" class="btn btn-success ") Javascipt
+            button.button#html( type="button" class="btn btn-danger ") Html
+            button.button#css( type="button" class="btn btn-warning ") Css (code)
+            button.button( type="button" class="btn btn-link " onclick="location.href='https://learn.excelwithbusiness.com/blog/post/web-design/say-hello-world-in-28-different-programming-languages'" ) More
+        div.def
+            h3.defi 
+                        |Python is powerful... and fast;
+                        |plays well with others;
+                        |runs everywhere;
+                        |is friendly & easy to learn;
+                        |is Open.
+                        |The community hosts conferences and meetups, collaborates on code, and much more. Python's 
+                        |documentation will help you along the way, and the mailing lists will keep you in touch
+
+    div.code
+        pre#preka(style="height:525px")
+            code#coe(class="language-python")
+                | print("Hello world !")
+                |
+                |"""This is the syntax of multiline comment in python"""
+                |
+                |#This is the syntax of single comment in python
+                |
+                |#to print current date 
+                |import datetime 
+                |#importing datetime module 
+                |
+                |print(datetime.datetime.now()) #this will print current date
+                |
+                |>>>2020-09-14 05:37:03.620870
+                |
+                |#to make Gui window install tkinter
+                |import tkinter
+                |root=Tk()
+                |root.mainloop()  #this will not close the window until the user will close 
+
+
+div(class="alert alert-success" role="alert")
+    |Get thorough understanding. First of all study all the concepts of the programming language deeply. ...
+    a( href="/apply" class="alert-link") Apply Now
+
+
+script
+    include ./defination.js
+
+
+
+ 
+           
+

@@ -1,0 +1,48 @@
+/* body{
+    background-image: linear-gradient(to right,#000,#459);
+} */
+.main{
+border: 2px solid;
+width: 100%;
+height: 550px;
+display: flex;
+flex-direction: row;
+background-image: linear-gradient(to right,#000,#459);
+
+}
+.option{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 6px;
+}
+
+.code
+{
+    /* border: 1px solid yellow; */
+    width: 60%;
+    height: 400px;
+    margin: 5px 6px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+}
+.button{
+    margin: 10px 10px;
+}
+.about{
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 6px;
+    padding: 6px;
+}
+.defi{
+    margin:10px;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #000 ,#111);
+}
+h3{
+    text-shadow: 0px 2px 2px ;
+}

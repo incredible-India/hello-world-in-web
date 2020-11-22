@@ -1,0 +1,5 @@
+1:Check the bootstrap file
+2: you can remove the bootstrap links  and the scripts from the Error.pug file 
+3:Check the directories off all css scripts and pugs file
+4:do not try to edit base.pug 
+5:you can add title by passing the objects via routing this page

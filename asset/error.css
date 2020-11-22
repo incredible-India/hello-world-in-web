@@ -1,0 +1,84 @@
+@font-face
+{
+    font-family: error;
+    src: url(error.ttf);
+}
+@font-face
+{
+    font-family: errorW;
+    src: url(errorW.ttf);
+}
+
+*{
+    text-shadow: 0 0 1px, 0 0 7px, 0 0 7px, 0 0 50px;
+}
+.container{
+    width: 50%;
+    height: 650px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.contain{
+    width: 200px;
+    height: 300px;
+
+}
+
+.btn{
+    width: 200px;
+    height: 300px;
+ 
+}
+
+h2{
+    margin: 10px 25px;
+    font-size: 67px;
+    font-weight: bold;
+    padding:14px 61px;
+    font-family: error;
+}
+h3{
+    padding: 25px 89px;
+    font-size: 33px;
+    color: teal;
+}
+span:nth-child(1)
+{
+    font-size: 6em;
+    font-family: cursive;
+    color: red;
+}
+span:nth-child(2)
+{
+    font-size: 4em;
+    font-family: cursive;
+    color: plum;
+}
+span:nth-child(3)
+{
+    font-size: 6em;
+    font-family: cursive;
+    color:blue;
+}
+h2{
+
+    font-family: errorW;
+}
+svg{
+    font-size: 57px;
+    float: left;
+}
+.btn{
+    cursor: pointer;
+    width: 100px;
+    height: 39px;
+}
+body{
+background-image: linear-gradient(to right,#000,#123);
+    color: white;
+}

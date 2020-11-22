@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: Pacifico-Regular;
+    src: url('Pacifico-Regular.ttf');
+  }
+
+  .mainheading{
+display: flex;
+margin: 17px 16px;
+
+
+}
+  
+
+.hello{
+    font-size: 50px;
+    margin: -4px 20px;
+    font-family: Pacifico-Regular;
+    text-shadow: 4px 4px 4px #aaa;
+}
+nav{
+    /* position: sticky;
+    top: 17px;
+    overflow: visible; */
+    margin: 10px 10px;
+}
+
+.membership{
+    margin: 10px 10px;
+
+}
+
+.pic{
+    margin: 10px 10px;
+}
+footer{
+   background-image: linear-gradient(to right,#000,#213);
+}
+h5{
+    text-align: center;
+    color: white;
+}

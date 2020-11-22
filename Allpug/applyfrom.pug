@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply @</title>
+    style
+        include ./form.css
+
+</head>
+<body>
+   <div class="top">
+       <div class="head">
+           <h3>Hello <span>World </span>!</h3>
+       </div>
+       <!-- <div class="left">
+           <h5>Join Community</h5>
+       </div> -->
+   </div>
+   <div class="naf">
+
+<div class="nav">
+
+ <a href="/">Home</a><hr>
+ <a href="/explore">Explore</a><hr>
+ <a href="">Python </a><hr>
+ <a href="">JavaScript</a><hr>
+
+
+</div>
+<div class="form">
+    <form action="/application/submitted" method="post">
+        <h4>Name :</h4>
+        <input type="text" name="UserName" placeholder="Full Name" required autofocus >
+        <br>
+        <h4>Email :</h4>
+        <input type="email" name="Email" id="email" placeholder="Email id" required>
+        <br>
+        <h4>Select Programming Language :</h4>
+        <select name="language" id="select" required>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C ">C </option>
+            <option value="Javascript">Javascript</option>
+            <option value="C++">C++</option>
+            <option value="Swift">Swift</option>
+            <option value="GO">GO</option>
+        </select>
+        <br>
+        <h4>Mobile :</h4>
+        <input type="number" name="Mobile">
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+   </div>
+</div>
+</body>
+</html>
