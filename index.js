@@ -11,7 +11,7 @@ app.set('views','./')
 app.use(express.static('./'))
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname + '/home.html')
+    res.sendFile(__dirname + '/index.html')
 })
 
 app.get('/explore',(req,res)=>{
